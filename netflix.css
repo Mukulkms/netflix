@@ -1,14 +1,14 @@
 @font-face {
     font-family: netflix1;
-    src: url(/NetflixSans_W_Rg.woff2);
+    src: url(NetflixSans_W_Rg.woff2);
 }
 @font-face {
     font-family: netflix2;
-    src: url(/NetflixSans_W_Bd.woff2);
+    src: url(NetflixSans_W_Bd.woff2);
 }
 @font-face {
     font-family: netflix3;
-    src: url(/NetflixSans_W_Blk.woff2);
+    src: url(NetflixSans_W_Blk.woff2);
 }
 *{
     padding: 0;
