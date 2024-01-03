@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200;6..12,300;6..12,400&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.main{
+    position: relative;
+}
+
+nav{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    border-bottom: 0.6px solid #fff;
+}
+.navbar{
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    margin: 0 10rem;
+    height: 82px;
+}
+
+.lg1{
+    width: 318px;
+  
+}
+
+.menu ul{
+    display: flex;
+    list-style: none;
+    gap: 0.8rem;
+}
+.menu ul a{
+    color: #fff;
+    text-decoration: none;
+    padding: 1rem;
+}
+.menu ul a.active{
+    color: #2cb5e8;
+    font-weight: bold;
+}
+.menu a:hover{
+    color: #2cb5e8;
+    transition: all 0.3s ease-in-out;
+}
+.video-banner{
+position: relative;
+width: 100%;
+}
+ video{
+    width: 100%;
+    object-fit: cover;
+    height: 100vh;
+ }
+
+ .banner-shade{
+    position: absolute;
+    background-color: rgba(0,0,0,.8);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+   
+ }
+ .section{
+    position: absolute;
+    width: 100%;
+    top: 150px;
+    
+ }
+ .text-sec{
+    margin: 0 15rem;
+    
+ }
+ .headings{
+    text-align: center;
+    padding: 0 1rem;
+    
+ }
+ .headings p{
+    color: #fff;
+    letter-spacing: 0.7px;
+ }
+ .headings h1{
+    color: #fff;
+    letter-spacing: 0.7px;
+    font-size: 50px;
+    line-height: 3.6rem;
+    margin: 30px 0;
+ }
+.btn-sec{
+    padding: 0 3rem;
+    margin-bottom: 2rem;
+}
+.btn-sec p{
+    line-height: 1.8rem;
+}
+.btn{
+    padding: 1rem 3.5rem;
+    border-radius: 25px;
+    margin: 3rem 0 0 0;
+    color: #fff;
+    border: none;
+    background: linear-gradient(140deg, #9fb8ad 0%, #f52a50 51%, #2cb5e8 75%);
+}
+.btn:hover{
+    background: linear-gradient(140deg, #9fb8ad 0%,  #2cb5e8 51%, #f52a50 75%);
+    cursor: pointer;
+}
+#arrow{
+    font-size: 2rem;
+    color: #fff;
+    
+}
